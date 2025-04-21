@@ -20,10 +20,10 @@ export default {
   },
   target: 'node',
   output: {
-		filename: 'index.js',
-		library: {
-			type: 'commonjs2'
-		},
-		path: path.resolve('./dist'),
+    filename: 'index.js',
+    library: {
+      type: 'commonjs2',
+    },
+    path: path.resolve('./dist'),
   },
 };
