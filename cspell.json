@@ -1,21 +1,11 @@
 {
-  "ignorePaths": [
-		".git",
-		".github",
-		".jest",
-		"coverage",
-		"dist",
-		"node_modules"
-	],
-	"language": "en-gb",
-  "languageSettings": [{
-		"languageId": "bash, javascript, typescript"
-	}],
+  "ignorePaths": [".git", ".github", ".jest", "coverage", "dist", "node_modules"],
+  "language": "en-gb",
+  "languageSettings": [
+    {
+      "languageId": "bash, javascript, typescript"
+    }
+  ],
   "version": "0.2",
-  "words": [
-		"datr",
-		"granul",
-		"granul8",
-		"pmscf"
-	]
+  "words": ["datr", "granul", "granul8", "pmscf"]
 }
