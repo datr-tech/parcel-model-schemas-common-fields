@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/parcel-model-schemas-common-fields",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": false,
   "description": "Parcel model schemas common fields",
   "keywords": [
@@ -35,9 +35,9 @@
     "format:src": "npx prettier --write './src/**/*.{json,ts}'",
     "format:test": "npx prettier --write './test/**/*.{json,ts}'",
     "format": "npm-run-all format:config format:src format:test",
-		"prelint": "npm run format",
+    "prelint": "npm run format",
     "lint": "npx eslint --fix",
-		"postlint": "npm run spell",
+    "postlint": "npm run spell",
     "preversion": "npm-run-all lint test",
     "version": "npm-run-all build test:it changelog",
     "postversion": "git push origin master --tags --no-verify",
