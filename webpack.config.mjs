@@ -1,8 +1,4 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import path from 'node:path';
 
 export default {
   entry: './src/index.ts',
@@ -19,14 +15,14 @@ export default {
     extensions: ['.js', '.json', '.ts'],
     modules: ['node_modules'],
     alias: {
-      '@app-pmscf': path.resolve(__dirname, 'src/'),
+      '@app-pmscf': path.resolve('./src/'),
     },
   },
   target: 'node',
   output: {
     filename: 'index.js',
     globalObject: 'this',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve('./dist'),
     libraryTarget: 'umd',
   },
 };

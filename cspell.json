@@ -1,5 +1,5 @@
 {
-  "ignorePaths": [".git", ".github", ".jest", "coverage", "dist", "node_modules"],
+  "ignorePaths": [".git", ".github", "coverage", "dist", "node_modules"],
   "language": "en-gb",
   "languageSettings": [
     {
