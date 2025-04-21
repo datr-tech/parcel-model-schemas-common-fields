@@ -30,7 +30,7 @@
     "changelog:add": "git add ./CHANGELOG.md",
     "changelog:commit": "git commit -m 'ci: update changelog' --no-verify",
     "clean": "npx rimraf ./coverage/* ./dist/*",
-    "precommit": "npm-run-all lint",
+    "precommit": "npm-run-all format lint spell test",
     "commit-msg": "commitlint --edit",
     "format:config": "npx prettier --write './*.{cjs,js,json,mjs,ts}'",
     "format:src": "npx prettier --write './src/**/*.{json,ts}'",
