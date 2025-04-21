@@ -21,6 +21,7 @@
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
   "main": "./dist/index.mjs",
+  "type": "module",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npx webpack --mode production",
