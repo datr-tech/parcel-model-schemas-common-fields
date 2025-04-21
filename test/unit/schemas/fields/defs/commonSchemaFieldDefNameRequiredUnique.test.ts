@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefNameRequiredUnique } from '@app/schemas/fields/defs';
+import { commonSchemaFieldDefNameRequiredUnique } from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldDefNameRequiredUnique', () => {
   describe('positive', () => {

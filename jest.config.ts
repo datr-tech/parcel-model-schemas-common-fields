@@ -10,8 +10,8 @@ export default {
     },
   },
   moduleNameMapper: {
-    '@app/(.*)': '<rootDir>/src/$1',
-    '@appTest/(.*)': '<rootDir>/test/$1',
+    '@app-pmscf/(.*)': '<rootDir>/src/$1',
+    '@dist-pmscf': '<rootDir>/dist/index.js'
   },
   preset: 'ts-jest',
   setupFilesAfterEnv: ['<rootDir>/.jest/setupPaths.ts'],

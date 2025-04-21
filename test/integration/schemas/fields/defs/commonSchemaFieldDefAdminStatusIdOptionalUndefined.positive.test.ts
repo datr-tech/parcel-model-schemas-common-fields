@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefAdminStatusIdOptionalUndefined } from '../../../../../dist';
+import { commonSchemaFieldDefAdminStatusIdOptionalUndefined } from '@dist-pmscf';
 
 describe('commonSchemaFieldDefAdminStatusIdOptionalUndefined', () => {
   describe('positive', () => {

@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefCreatedAtOptional } from '../../../../../dist';
+import { commonSchemaFieldDefCreatedAtOptional } from '@dist-pmscf';
 
 describe('commonSchemaFieldDefCreatedAtOptional', () => {
   describe('positive', () => {

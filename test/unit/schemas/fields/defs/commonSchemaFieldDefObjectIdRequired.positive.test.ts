@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefObjectIdRequired } from '@app/schemas/fields/defs';
+import { commonSchemaFieldDefObjectIdRequired } from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldDefObjectIdRequired', () => {
   describe('positive', () => {

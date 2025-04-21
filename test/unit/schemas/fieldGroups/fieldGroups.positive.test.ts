@@ -1,4 +1,4 @@
-import * as fieldGroups from '@app/schemas/fieldGroups';
+import * as fieldGroups from '@app-pmscf/schemas/fieldGroups';
 
 describe('fieldGroups', () => {
   describe('positive', () => {

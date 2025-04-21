@@ -3,7 +3,7 @@ import {
   commonSchemaFieldDefAdminUserIdRequired,
   commonSchemaFieldDefCreatedAtOptional,
   commonSchemaFieldDefUpdatedAtOptional,
-} from '../fields/defs';
+} from '@app-pmscf/schemas/fields/defs';
 
 export const commonSchemaFieldGroupFooter = {
   adminStatusId: commonSchemaFieldDefAdminStatusIdOptionalUndefined,

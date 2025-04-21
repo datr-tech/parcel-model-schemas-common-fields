@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseUrl } from '@app/schemas/fields/base';
+import { commonSchemaFieldBaseUrl } from '@app-pmscf/schemas/fields/base';
 
 describe('commonSchemaFieldBaseUrl', () => {
   describe('positive', () => {

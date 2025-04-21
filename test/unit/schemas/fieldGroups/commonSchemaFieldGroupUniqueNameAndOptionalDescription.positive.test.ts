@@ -1,8 +1,8 @@
-import { commonSchemaFieldGroupUniqueNameAndOptionalDescription } from '@app/schemas/fieldGroups';
+import { commonSchemaFieldGroupUniqueNameAndOptionalDescription } from '@app-pmscf/schemas/fieldGroups';
 import {
   commonSchemaFieldDefDescriptionOptional,
   commonSchemaFieldDefNameRequiredUnique,
-} from '@app/schemas/fields/defs';
+} from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldGroupUniqueNameAndOptionalDescription', () => {
   describe('positive', () => {

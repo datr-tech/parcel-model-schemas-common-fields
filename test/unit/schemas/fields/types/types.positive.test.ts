@@ -1,4 +1,4 @@
-import * as schemaFieldTypes from '@app/schemas/fields/types';
+import * as schemaFieldTypes from '@app-pmscf/schemas/fields/types';
 
 describe('types', () => {
   describe('positive', () => {

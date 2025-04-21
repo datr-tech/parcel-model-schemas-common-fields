@@ -1,4 +1,4 @@
-import { commonSchemaFieldQualifierOptional } from '@app/schemas/fields/qualifiers';
+import { commonSchemaFieldQualifierOptional } from '@app-pmscf/schemas/fields/qualifiers';
 
 describe('commonSchemaFieldQualifierOptional', () => {
   describe('positive', () => {

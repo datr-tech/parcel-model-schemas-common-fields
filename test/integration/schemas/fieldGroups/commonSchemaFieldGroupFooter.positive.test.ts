@@ -3,8 +3,8 @@ import {
   commonSchemaFieldDefAdminUserIdRequired,
   commonSchemaFieldDefCreatedAtOptional,
   commonSchemaFieldDefUpdatedAtOptional,
-} from '@app/schemas/fields/defs';
-import { commonSchemaFieldGroupFooter } from '../../../../dist';
+} from '@app-pmscf/schemas/fields/defs';
+import { commonSchemaFieldGroupFooter } from '@dist-pmscf';
 
 describe('commonSchemaFieldGroupFooter', () => {
   describe('positive', () => {

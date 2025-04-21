@@ -20,8 +20,7 @@
   },
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
-  "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/index.mjs",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npx webpack --mode production",
@@ -43,7 +42,7 @@
     "precommit": "npm-run-all format lint spell",
     "prepare": "husky",
     "prepush": "npm run test",
-    "spell": "npx cspell ./src/**/*.ts",
+    "spell": "npx cspell ./package.json ./src/**/*.ts",
     "test:it": "npx jest ./test/integration",
     "test:unit": "npx jest ./test/unit --coverage",
     "test": "npm run test:unit"

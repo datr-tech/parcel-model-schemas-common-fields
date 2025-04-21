@@ -2,7 +2,7 @@ import {
   commonSchemaFieldGroupFooter,
   commonSchemaFieldGroupModelType,
   commonSchemaFieldGroupUniqueNameAndOptionalDescription,
-} from '@app/schemas/fieldGroups';
+} from '@app-pmscf/schemas/fieldGroups';
 
 describe('commonSchemaFieldGroupModelType', () => {
   describe('positive', () => {

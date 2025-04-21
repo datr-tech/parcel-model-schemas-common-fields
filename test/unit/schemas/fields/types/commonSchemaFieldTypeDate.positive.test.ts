@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeDate } from '@app/schemas/fields/types';
+import { commonSchemaFieldTypeDate } from '@app-pmscf/schemas/fields/types';
 
 describe('commonSchemaFieldTypeDate', () => {
   describe('positive', () => {

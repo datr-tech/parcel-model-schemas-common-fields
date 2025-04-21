@@ -1,5 +1,5 @@
-import { commonSchemaFieldBaseDescription } from '../base/commonSchemaFieldBaseDescription';
-import { commonSchemaFieldQualifierOptional } from '../qualifiers/commonSchemaFieldQualifierOptional';
+import { commonSchemaFieldBaseDescription } from '@app-pmscf/schemas/fields/base';
+import { commonSchemaFieldQualifierOptional } from '@app-pmscf/schemas/fields/qualifiers';
 
 export const commonSchemaFieldDefDescriptionOptional = {
   ...commonSchemaFieldQualifierOptional,

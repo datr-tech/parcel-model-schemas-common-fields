@@ -1,4 +1,4 @@
-import { commonSchemaFieldQualifierUnique } from '@app/schemas/fields/qualifiers';
+import { commonSchemaFieldQualifierUnique } from '@app-pmscf/schemas/fields/qualifiers';
 
 describe('commonSchemaFieldQualifierUnique', () => {
   describe('positive', () => {

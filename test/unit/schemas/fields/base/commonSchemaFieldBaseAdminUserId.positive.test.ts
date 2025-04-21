@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseAdminUserId } from '@app/schemas/fields/base';
+import { commonSchemaFieldBaseAdminUserId } from '@app-pmscf/schemas/fields/base';
 
 describe('commonSchemaFieldBaseAdminUserId', () => {
   describe('positive', () => {

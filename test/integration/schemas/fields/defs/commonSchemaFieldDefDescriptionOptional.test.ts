@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefDescriptionOptional } from '../../../../../dist';
+import { commonSchemaFieldDefDescriptionOptional } from '@dist-pmscf';
 
 describe('commonSchemaFieldDefDescriptionOptional', () => {
   describe('positive', () => {

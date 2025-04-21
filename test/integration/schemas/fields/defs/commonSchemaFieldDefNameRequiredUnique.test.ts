@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefNameRequiredUnique } from '../../../../../dist';
+import { commonSchemaFieldDefNameRequiredUnique } from '@dist-pmscf';
 
 describe('commonSchemaFieldDefNameRequiredUnique', () => {
   describe('positive', () => {

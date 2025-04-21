@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefDescriptionOptional } from '@app/schemas/fields/defs';
+import { commonSchemaFieldDefDescriptionOptional } from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldDefDescriptionOptional', () => {
   describe('positive', () => {

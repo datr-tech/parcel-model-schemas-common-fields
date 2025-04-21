@@ -1,4 +1,4 @@
-import * as schemaFieldDefs from '@app/schemas/fields/defs';
+import * as schemaFieldDefs from '@app-pmscf/schemas/fields/defs';
 
 describe('defs', () => {
   describe('positive', () => {

@@ -1,4 +1,4 @@
-import * as schemaBaseFields from '@app/schemas/fields/base';
+import * as schemaBaseFields from '@app-pmscf/schemas/fields/base';
 
 describe('baseFields', () => {
   describe('positive', () => {

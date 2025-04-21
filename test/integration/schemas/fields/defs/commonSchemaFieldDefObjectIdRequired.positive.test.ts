@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefObjectIdRequired } from '../../../../../dist';
+import { commonSchemaFieldDefObjectIdRequired } from '@dist-pmscf';
 
 describe('commonSchemaFieldDefObjectIdRequired', () => {
   describe('positive', () => {

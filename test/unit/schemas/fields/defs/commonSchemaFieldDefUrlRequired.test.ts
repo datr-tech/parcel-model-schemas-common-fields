@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefUrlRequired } from '@app/schemas/fields/defs';
+import { commonSchemaFieldDefUrlRequired } from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldDefUrlRequired', () => {
   describe('positive', () => {

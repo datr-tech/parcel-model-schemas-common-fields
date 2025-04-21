@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeString } from '../../../../../dist';
+import { commonSchemaFieldTypeString } from '@dist-pmscf';
 
 describe('commonSchemaFieldTypeString', () => {
   describe('positive', () => {

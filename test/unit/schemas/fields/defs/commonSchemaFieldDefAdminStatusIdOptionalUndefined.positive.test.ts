@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefAdminStatusIdOptionalUndefined } from '@app/schemas/fields/defs';
+import { commonSchemaFieldDefAdminStatusIdOptionalUndefined } from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldDefAdminStatusIdOptionalUndefined', () => {
   describe('positive', () => {

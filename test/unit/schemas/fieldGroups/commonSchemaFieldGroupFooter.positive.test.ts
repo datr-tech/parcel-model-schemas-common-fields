@@ -1,10 +1,10 @@
-import { commonSchemaFieldGroupFooter } from '@app/schemas/fieldGroups';
+import { commonSchemaFieldGroupFooter } from '@app-pmscf/schemas/fieldGroups';
 import {
   commonSchemaFieldDefAdminStatusIdOptionalUndefined,
   commonSchemaFieldDefAdminUserIdRequired,
   commonSchemaFieldDefCreatedAtOptional,
   commonSchemaFieldDefUpdatedAtOptional,
-} from '@app/schemas/fields/defs';
+} from '@app-pmscf/schemas/fields/defs';
 
 describe('commonSchemaFieldGroupFooter', () => {
   describe('positive', () => {

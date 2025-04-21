@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeString } from '@app/schemas/fields/types';
+import { commonSchemaFieldTypeString } from '@app-pmscf/schemas/fields/types';
 
 describe('commonSchemaFieldTypeString', () => {
   describe('positive', () => {

@@ -1,6 +1,6 @@
-import { ICommonSchemaFieldDefCreatedAt } from '@app-parcel-model-schemas-common-fields-parcel-model-schemas-common-fields/interfaces/schemas/fields/defs';
-import { commonSchemaFieldBaseCreatedAt } from '../base/commonSchemaFieldBaseCreatedAt';
-import { commonSchemaFieldQualifierOptional } from '../qualifiers/commonSchemaFieldQualifierOptional';
+import { ICommonSchemaFieldDefCreatedAt } from '@app-pmscf/interfaces/schemas/fields/defs';
+import { commonSchemaFieldBaseCreatedAt } from '@app-pmscf/schemas/fields/base';
+import { commonSchemaFieldQualifierOptional } from '@app-pmscf/schemas/fields/qualifiers';
 
 export const commonSchemaFieldDefCreatedAtOptional = {
   ...commonSchemaFieldQualifierOptional,

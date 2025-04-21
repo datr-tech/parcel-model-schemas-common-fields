@@ -1,5 +1,5 @@
-import { ICommonSchemaFieldDefNameUnique } from '@app-parcel-model-schemas-common-fields-parcel-model-schemas-common-fields/interfaces/schemas/fields/defs';
-import { commonSchemaFieldQualifierUnique } from '../qualifiers/commonSchemaFieldQualifierUnique';
+import { ICommonSchemaFieldDefNameUnique } from '@app-pmscf/interfaces/schemas/fields/defs';
+import { commonSchemaFieldQualifierUnique } from '@app-pmscf/schemas/fields/qualifiers';
 import { commonSchemaFieldDefNameRequired } from './commonSchemaFieldDefNameRequired';
 
 export const commonSchemaFieldDefNameRequiredUnique = {

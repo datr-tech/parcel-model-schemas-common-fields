@@ -1,4 +1,4 @@
-import { commonSchemaOptions } from '@app/schemas/options';
+import { commonSchemaOptions } from '@app-pmscf/schemas/options';
 
 describe('commonSchemaOptions', () => {
   describe('positive', () => {

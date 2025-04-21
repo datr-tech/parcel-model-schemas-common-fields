@@ -19,12 +19,14 @@ export default {
     extensions: ['.js', '.json', '.ts'],
     modules: ['node_modules'],
     alias: {
-      '@app-parcel-model-schemas-common-fields': path.resolve(__dirname, 'src/'),
+      '@app-pmscf': path.resolve(__dirname, 'src/'),
     },
   },
   target: 'node',
   output: {
     filename: 'index.js',
+    globalObject: 'this',
     path: path.resolve(__dirname, 'dist'),
-  },
+    libraryTarget: 'umd',
+  }
 };

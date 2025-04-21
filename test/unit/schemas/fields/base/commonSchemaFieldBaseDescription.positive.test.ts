@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseDescription } from '@app/schemas/fields/base';
+import { commonSchemaFieldBaseDescription } from '@app-pmscf/schemas/fields/base';
 
 describe('commonSchemaFieldBaseDescription', () => {
   describe('positive', () => {

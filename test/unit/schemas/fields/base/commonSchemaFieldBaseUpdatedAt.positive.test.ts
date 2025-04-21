@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseUpdatedAt } from '@app/schemas/fields/base';
+import { commonSchemaFieldBaseUpdatedAt } from '@app-pmscf/schemas/fields/base';
 
 describe('commonSchemaFieldBaseUpdatedAt', () => {
   describe('positive', () => {

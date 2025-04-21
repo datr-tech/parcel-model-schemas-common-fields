@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseAdminStatusId } from '../../../../../dist';
+import { commonSchemaFieldBaseAdminStatusId } from '@dist-pmscf';
 
 describe('commonSchemaFieldBaseAdminStatusId', () => {
   describe('positive', () => {

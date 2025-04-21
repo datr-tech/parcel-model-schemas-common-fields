@@ -1,6 +1,6 @@
-import { ICommonSchemaFieldDefName } from '@app-parcel-model-schemas-common-fields-parcel-model-schemas-common-fields/interfaces/schemas/fields/defs';
-import { commonSchemaFieldBaseName } from '../base/commonSchemaFieldBaseName';
-import { commonSchemaFieldQualifierRequired } from '../qualifiers/commonSchemaFieldQualifierRequired';
+import { ICommonSchemaFieldDefName } from '@app-pmscf/interfaces/schemas/fields/defs';
+import { commonSchemaFieldBaseName } from '@app-pmscf/schemas/fields/base';
+import { commonSchemaFieldQualifierRequired } from '@app-pmscf/schemas/fields/qualifiers';
 
 export const commonSchemaFieldDefNameRequired = {
   trim: true,

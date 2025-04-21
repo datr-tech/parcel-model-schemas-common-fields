@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseUpdatedAt } from '../../../../../dist';
+import { commonSchemaFieldBaseUpdatedAt } from '@dist-pmscf';
 
 describe('commonSchemaFieldBaseUpdatedAt', () => {
   describe('positive', () => {

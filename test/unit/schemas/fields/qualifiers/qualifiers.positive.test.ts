@@ -1,4 +1,4 @@
-import * as schemaFieldQualifiers from '@app/schemas/fields/qualifiers';
+import * as schemaFieldQualifiers from '@app-pmscf/schemas/fields/qualifiers';
 
 describe('schemaFieldQualifiers', () => {
   describe('positive', () => {

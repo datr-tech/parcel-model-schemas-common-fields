@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeObjectId } from '@app/schemas/fields/types';
+import { commonSchemaFieldTypeObjectId } from '@app-pmscf/schemas/fields/types';
 
 describe('commonSchemaFieldTypeObjectId', () => {
   describe('positive', () => {

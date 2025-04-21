@@ -1,4 +1,4 @@
-import { commonSchemaFieldBaseName } from '../../../../../dist';
+import { commonSchemaFieldBaseName } from '@dist-pmscf';
 
 describe('commonSchemaFieldBaseName', () => {
   describe('positive', () => {
