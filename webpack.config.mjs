@@ -28,5 +28,5 @@ export default {
     globalObject: 'this',
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
-  }
+  },
 };
