@@ -20,9 +20,10 @@ export default {
   },
   target: 'node',
   output: {
-    filename: 'index.js',
-    globalObject: 'this',
-    path: path.resolve('./dist'),
-    libraryTarget: 'umd',
+		filename: 'index.js',
+		library: {
+			type: 'commonjs2'
+		},
+		path: path.resolve('./dist'),
   },
 };
