@@ -1,5 +1,5 @@
-import { ICommonSchemaFieldBaseString } from '@app/interfaces/schemas/fields/base';
-import { commonSchemaFieldTypeString } from '@app/schemas/fields/types';
+import { ICommonSchemaFieldBaseString } from '@app-parcel-model-schemas-common-fields/interfaces/schemas/fields/base';
+import { commonSchemaFieldTypeString } from '@app-parcel-model-schemas-common-fields/schemas/fields/types';
 
 export const commonSchemaFieldBaseDescription = {
   ...commonSchemaFieldTypeString,

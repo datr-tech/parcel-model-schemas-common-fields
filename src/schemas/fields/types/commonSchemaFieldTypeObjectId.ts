@@ -1,4 +1,4 @@
-import { ICommonSchemaFieldType } from '@app/interfaces/schemas/fields/types';
+import { ICommonSchemaFieldType } from '@app-parcel-model-schemas-common-fields/interfaces/schemas/fields/types';
 
 export const commonSchemaFieldTypeObjectId: ICommonSchemaFieldType = {
   type: 'ObjectId',

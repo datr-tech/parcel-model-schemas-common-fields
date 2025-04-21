@@ -1,4 +1,4 @@
-import { ICommonSchemaFieldQualifierDefault } from '@app/interfaces/schemas/fields/qualifiers';
+import { ICommonSchemaFieldQualifierDefault } from '@app-parcel-model-schemas-common-fields/interfaces/schemas/fields/qualifiers';
 import { commonSchemaFieldQualifierOptional } from './commonSchemaFieldQualifierOptional';
 
 const commonSchemaFieldQualifierDefault: ICommonSchemaFieldQualifierDefault = {

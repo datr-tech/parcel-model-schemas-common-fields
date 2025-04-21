@@ -1,4 +1,4 @@
-import { ICommonSchemaFieldDefName } from '@app/interfaces/schemas/fields/defs';
+import { ICommonSchemaFieldDefName } from '@app-parcel-model-schemas-common-fields/interfaces/schemas/fields/defs';
 import { commonSchemaFieldBaseName } from '../base/commonSchemaFieldBaseName';
 import { commonSchemaFieldQualifierRequired } from '../qualifiers/commonSchemaFieldQualifierRequired';
 

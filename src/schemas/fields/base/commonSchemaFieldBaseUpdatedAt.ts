@@ -1,5 +1,5 @@
-import { ICommonSchemaFieldBaseDate } from '@app/interfaces/schemas/fields/base';
-import { commonSchemaFieldTypeDate } from '@app/schemas/fields/types';
+import { ICommonSchemaFieldBaseDate } from '@app-parcel-model-schemas-common-fields/interfaces/schemas/fields/base';
+import { commonSchemaFieldTypeDate } from '@app-parcel-model-schemas-common-fields/schemas/fields/types';
 
 export const commonSchemaFieldBaseUpdatedAt = {
   ...commonSchemaFieldTypeDate,
