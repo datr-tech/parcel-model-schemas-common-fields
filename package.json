@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/parcel-model-schemas-common-fields",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "private": false,
   "description": "Parcel model schemas common fields",
   "keywords": [
@@ -21,7 +21,11 @@
   },
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
-  "main": "./dist/index.mjs",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "type": "module",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npx webpack --mode production",

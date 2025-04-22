@@ -5,15 +5,14 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "lib": ["es2015"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "es6",
+    "moduleResolution": "bundler",
     "outDir": "./dist",
     "paths": {
       "@app-pmscf/*": ["./src/*"],
-      "@dist-pmscf": ["./dist"]
+      "@dist-pmscf": ["./dist/index.js"]
     },
-    "target": "es2015",
+    "target": "es2020",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true

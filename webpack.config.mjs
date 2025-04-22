@@ -2,6 +2,9 @@ import path from 'node:path';
 
 export default {
   entry: './src/index.ts',
+  experiments: {
+    outputModule: true,
+  },
   module: {
     rules: [
       {
@@ -11,19 +14,25 @@ export default {
       },
     ],
   },
+  output: {
+    chunkFormat: 'module',
+    clean: true,
+    filename: 'index.js',
+    globalObject: 'this',
+    iife: false,
+    library: {
+      type: 'commonjs-static',
+    },
+    module: true,
+    path: path.resolve('./dist'),
+  },
   resolve: {
     extensions: ['.js', '.json', '.ts'],
     modules: ['node_modules'],
     alias: {
       '@app-pmscf': path.resolve('./src/'),
+      '@dist-pmscf': path.resolve('./dist/index.mjs'),
     },
   },
   target: 'node',
-  output: {
-    filename: 'index.mjs',
-    library: {
-      type: 'commonjs2',
-    },
-    path: path.resolve('./dist'),
-  },
 };
