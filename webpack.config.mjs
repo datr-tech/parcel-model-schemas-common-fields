@@ -20,7 +20,7 @@ export default {
   },
   target: 'node',
   output: {
-    filename: 'index.js',
+    filename: 'index.mjs',
     library: {
       type: 'commonjs2',
     },
