@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeDate } from '@dist-pmscf';
+import { commonSchemaFieldTypeDate } from '../../../../../';
 
 describe('commonSchemaFieldTypeDate', () => {
   describe('positive', () => {

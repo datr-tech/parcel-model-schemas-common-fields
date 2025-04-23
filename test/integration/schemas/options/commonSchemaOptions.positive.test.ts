@@ -1,4 +1,4 @@
-import { commonSchemaOptions } from '@dist-pmscf';
+import { commonSchemaOptions } from '../../../../';
 
 describe('commonSchemaOptions', () => {
   describe('positive', () => {

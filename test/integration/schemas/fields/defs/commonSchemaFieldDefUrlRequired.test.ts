@@ -1,4 +1,4 @@
-import { commonSchemaFieldDefUrlRequired } from '@dist-pmscf';
+import { commonSchemaFieldDefUrlRequired } from '../../../../../';
 
 describe('commonSchemaFieldDefUrlRequired', () => {
   describe('positive', () => {

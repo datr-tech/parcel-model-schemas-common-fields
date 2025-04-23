@@ -4,7 +4,7 @@ import {
   commonSchemaFieldDefCreatedAtOptional,
   commonSchemaFieldDefUpdatedAtOptional,
 } from '@app-pmscf/schemas/fields/defs';
-import { commonSchemaFieldGroupFooter } from '@dist-pmscf';
+import { commonSchemaFieldGroupFooter } from '../../../../';
 
 describe('commonSchemaFieldGroupFooter', () => {
   describe('positive', () => {

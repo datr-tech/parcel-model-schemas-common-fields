@@ -1,4 +1,4 @@
-import { commonSchemaFieldTypeObjectId } from '@dist-pmscf';
+import { commonSchemaFieldTypeObjectId } from '../../../../../';
 
 describe('commonSchemaFieldTypeObjectId', () => {
   describe('positive', () => {

@@ -15,11 +15,7 @@ export default {
     ],
   },
   output: {
-    chunkFormat: 'module',
-    clean: true,
-    filename: 'index.js',
-    globalObject: 'this',
-    iife: false,
+    filename: 'index.mjs',
     library: {
       type: 'commonjs-static',
     },

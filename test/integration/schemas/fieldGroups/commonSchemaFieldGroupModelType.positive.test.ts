@@ -2,7 +2,7 @@ import {
   commonSchemaFieldGroupFooter,
   commonSchemaFieldGroupModelType,
   commonSchemaFieldGroupUniqueNameAndOptionalDescription,
-} from '@dist-pmscf';
+} from '../../../../';
 
 describe('commonSchemaFieldGroupModelType', () => {
   describe('positive', () => {
