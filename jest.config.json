@@ -1,6 +1,6 @@
 {
   "coveragePathIgnorePatterns": ["<rootDir>/test/fixtures"],
-  "coverageReporters": ["lcov", "json-summary"],
+  "coverageReporters": ["lcov", "json-summary", "text"],
   "coverageThreshold": {
     "global": {
       "branches": 0,
